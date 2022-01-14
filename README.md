@@ -8,16 +8,16 @@ Using unsupervised machine learning methods to help cluster cryptocurrencies.
 ### A picture of the initial data provided:
 ![Initial upload of data](https://github.com/marcuspttr/unsupervised-learning/blob/main/Assets/intialframe.PNG)
 
-After removing unnecessary columns such as the coin names (at this point we are just interested in seeing if there are clusters of similar coins at a general level) and converting key categorical data into binary settings with one hot encoding we were ready to start fitting our data. One last step was spent standardizing the numeric data to make trends easier to find, resulting in the following table:
+I started by removing unnecessary columns such as the coin names (at this point we are just interested in seeing if there are clusters of similar coins at a general level) and cleaning out null or duplicated values. Then converted key categorical data into binary settings with one hot encoding (which shifted the data from 5 columns to 97). The final in preparing the data was to standardize the numeric data to make trends easier to find, resulting in the following table:
 
 ### Preview of data after cleaning & preparing:
 ![Prepared dataframe](https://github.com/marcuspttr/unsupervised-learning/blob/main/Assets/scaledframe.PNG)
 
-### PCA dimensionality reduction, resulting frame with components:
-![PCA dimensionality reduction](https://github.com/marcuspttr/unsupervised-learning/blob/main/Assets/datapca.PNG)
 Running the indicated dimensionality reduction to maintain 90% of the explained variance, we limited the data to 12 principal components.
 Created a new clean dataframe for reference in the future calculations.
 
+### PCA dimensionality reduction, resulting frame with components:
+![PCA dimensionality reduction](https://github.com/marcuspttr/unsupervised-learning/blob/main/Assets/datapca.PNG)
 
 ### TSNE graph with potential clusters within the data:
 ![TSNE graph](https://github.com/marcuspttr/unsupervised-learning/blob/main/Assets/tsnegraph.PNG)
