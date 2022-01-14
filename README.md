@@ -29,4 +29,4 @@ The graph definitely seems to show some distinct clusters. I have some concerns 
 ### Elbow graph showing clusters & inertia:
 ![K means eblow graph](https://github.com/marcuspttr/unsupervised-learning/blob/main/Assets/elbowgraph.PNG)
 
-Finding the proper flattening of this curve I'd recommend to my clients that there may be 6 to 7 clusters within the data. Reflecting on the TSNE graph as well, I'd say it's safer to go with the additional clusters (6) rather than misgroup unrelated data. 
+Finding the proper flattening of this curve I'd recommend to my clients that there may be 6 to 7 clusters within the data. Reflecting on the TSNE graph as well, I'd say it's safer to go with the smaller amount of clusters (6) rather than create superfluous groups.
